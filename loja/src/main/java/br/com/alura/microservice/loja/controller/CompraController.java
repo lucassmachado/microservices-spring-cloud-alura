@@ -10,7 +10,7 @@ import br.com.alura.microservice.loja.controller.dto.CompraDTO;
 import br.com.alura.microservice.loja.service.CompraService;
 
 @RestController
-@RequestMapping("compra")
+@RequestMapping("/compra")
 public class CompraController {
 
 	@Autowired
